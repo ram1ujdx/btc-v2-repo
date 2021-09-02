@@ -4,12 +4,25 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		
-		Car ford=new Car();
-		ford.regNo="KA05A 4745";
-		ford.model="Eco Sports";
-		ford.color="Red";
-		ford.exShowroomPrice=1150000;
+		Car ford=new Car("KA05A 4745","Red",1150000,"Eco Sports");
+
 		
+		System.out.println(ford);
+		
+		ford.start();
+		ford.accelerate();
+		ford.brake();
+		
+		//ford =new Car();
+		System.gc();
+
+		
+//		try {
+//			Thread.sleep(10000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		System.out.println(ford);
 		
 		ford.start();

@@ -10,6 +10,20 @@ public class Car {
 		System.out.println("Engine Started...");
 	}
 	
+	public Car() {
+		
+	}
+	
+	public Car(String regNo, String color,	double exShowroomPrice, String model) {
+		
+		this.regNo=regNo;
+		this.color=color;
+		this.exShowroomPrice=exShowroomPrice;
+		this.model=model;
+		
+	}
+	
+	
 	public void accelerate() {
 		System.out.println("Car running...");
 	}
@@ -24,6 +38,12 @@ public class Car {
 				+ "]";
 	}
 	
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+		System.out.println("Car object Garbage Collected");
+	}
 	
 	
 }
