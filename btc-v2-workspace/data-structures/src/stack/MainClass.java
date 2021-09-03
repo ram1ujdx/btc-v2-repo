@@ -12,14 +12,13 @@ public class MainClass {
 		stack.push(50);
 		stack.push(30);
 		
-		stack.pop();
-		stack.pop();
-		stack.pop();
-		stack.pop();
-		stack.pop();
-		stack.pop();
-		stack.pop();
+		while(!stack.isEmpty()) {
+			stack.pop();
+		}
 
 	}
 
 }
+
+// rahul
+// luhar
