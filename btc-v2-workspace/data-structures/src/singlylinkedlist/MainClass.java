@@ -4,28 +4,17 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		
-		Node node1=new Node();
-		node1.data=100;
+		SinglyLinkedList linkedList=new SinglyLinkedList();
 		
+		linkedList.insertFirst(10);
+		linkedList.insertFirst(50);
+		linkedList.insertFirst(100);
+		linkedList.deleteFirst();
+		linkedList.insertFirst(500);
+		linkedList.insertLast(777);
 		
+		linkedList.displayList();
 		
-		Node node2=new Node();
-		node1.next=node2;
-		node2.data=200;
-		
-		
-		
-		Node node3=new Node();
-		node2.next=node3;
-		node3.data=300;
-		
-		
-		Node currNode=node1;
-		
-		while(currNode!=null) {
-			currNode.displayNode();
-			currNode=currNode.next;
-		}
 		
 
 	}
