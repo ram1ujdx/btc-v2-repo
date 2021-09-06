@@ -62,6 +62,20 @@ public class DoublyLinkedList {
 		return temp;
 	}
 	
+	// assume the list is non-empty
+	public Node deleteLast() {
+		Node temp=new Node();
+		if(first.next==null) {
+			first=null;
+		}
+		else {
+			last.previous.next=null;
+		}
+		last=last.previous;
+		
+		return temp;
+	}
+	
 	public void displayListForward() {
 		System.out.println("List -> ");
 
@@ -73,5 +87,18 @@ public class DoublyLinkedList {
 		
 		System.out.println();
 	}
+	
+	public void displayListBackward() {
+		System.out.println("List -> ");
+
+		Node current=last;
+		do{
+			current.displayNode();
+			current=current.previous;
+		}while(current  !=null);
+		
+		System.out.println();
+	}
+	
 	
 }
