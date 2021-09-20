@@ -50,5 +50,31 @@ public class Heap {
 		
 	}
 	
+	
+private void shiftDown(int idx) {
+		
+		int largerChildIndex;
+		Node root=heapArray[idx];
+		
+		while(idx<currentSize/2) {
+			int leftChildIndex=2*idx+1;
+			int rightChildIndex=leftChildIndex+1;
+			if(rightChildIndex<currentSize && heapArray[leftChildIndex].getKey()<
+					heapArray[rightChildIndex].getKey()) {
+				largerChildIndex=rightChildIndex;
+			}
+			else {
+				largerChildIndex=leftChildIndex;
+			}
+			if(root.getKey()>=heapArray[largerChildIndex].getKey()) {
+				break;
+			}
+			heapArray[idx]=heapArray[largerChildIndex];
+			idx=largerChildIndex;
+		}
+		heapArray[idx]=root;
+		
+	}
+	
 
 }
