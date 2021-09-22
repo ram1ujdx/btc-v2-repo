@@ -12,4 +12,7 @@
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
     <fullyQualifiedTypeName name="binaryserachtree.BinarySearchTree"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.dom.ParentNode"/>
+    <fullyQualifiedTypeName name="heap.Heap"/>
+    <fullyQualifiedTypeName name="heap.Node"/>
+    <fullyQualifiedTypeName name="hashtable.HashTable"/>
 </qualifiedTypeNameHistroy>

@@ -12,6 +12,9 @@ public class MyHeap {
 		myHeap.insert(22);
 		myHeap.insert(25);
 		
+		
+		myHeap.displayHeap();
+		
 //		      29
 //		
 //		25           20
@@ -19,9 +22,9 @@ public class MyHeap {
 //	10      22
 //		
 //		
-		for(int i=0;i<myHeap.getSize();i++) {
-			System.out.println(myHeap.heapArray[i].getKey());
-		}
+//		for(int i=0;i<myHeap.getSize();i++) {
+//			System.out.println(myHeap.heapArray[i].getKey());
+//		}
 	}
 
 }
