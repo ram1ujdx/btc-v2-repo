@@ -114,4 +114,6 @@ select * from emp where job not in('analyst','clerk');
 
 select * from emp where sal <= 2000 and sal >= 1000;
 
-select * from emp where sal not between 1000 and 2000;```
+select * from emp where sal not between 1000 and 2000;
+
+```
