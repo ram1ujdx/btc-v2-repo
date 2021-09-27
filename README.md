@@ -4,7 +4,7 @@
 
 ```sql
 
-cuse btc_new_db;
+use btc_new_db;
 
 show tables;
 
@@ -130,23 +130,46 @@ select e.*, d.* from emp e join dept d USING(deptno);
 
 select d.deptno, d.dname from dept d left join emp e on d.deptno=e.deptno where e.empno is NULL;
 
--- find the no of employees worling in Kolkata
+-- find the no of employees working in Kolkata
+
+select count(empno) as Total_Emp_From_Kolkatha from emp e ,dept d where e.deptno=d.deptno and location='Kolkata';
 
 -- display the dept details along with employee count
 
+select d.*, count(empno) as 'Total Employees' from dept d left join emp e using(deptno) group by d.deptno, d.location, d.dname; 
+
 -- display the total salary of SALES dept
+
+select sum(e.sal) from emp e left join dept d on d.deptno=e.deptno where d.dname='SALES';
 
 -- display the emplyee details of IT dept
 
+
+
+
 -- find the SALESMAN working in Mumbai
+
+
+
 
 -- Find the manager working for IT dept
 
+
+
 -- Find the least earner of SALES dept
+
+select employee.*,dept.*,min(sal) from emp employee join dept where employee.DeptNo=dept.deptno and dept.dname='SALES';
+
+select e.* from emp e left join dept d on d.deptno=e.deptno where d.dname='SALES' order by sal limit 1;
 
 -- find the least earning manager
 
+select distinct m.* from emp e join emp m on e.mgr=m.empno order by m.sal limit 1;
+
 -- find the EMPLOYEE whose salary is more than his manager
+
+
+
 
 
 
