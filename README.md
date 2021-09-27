@@ -4,22 +4,7 @@
 
 ```sql
 
-create database btc_new_db;
-use btc_new_db;
-create table student(roll int, calss numeric(2), student_name varchar(30), phone numeric(11), marks numeric(5,2));
-desc student;
-
-insert into student values(1001, 6, 'Rahul', 5676868797,96.2);
-
-select * from student;
-
-```
-
-## Day 2 - Commands
-
-```sql
-
-use btc_new_db;
+cuse btc_new_db;
 
 show tables;
 
@@ -32,6 +17,10 @@ create table employee(empno numeric(4) primary key, empname varchar(30) not null
 desc employee;
 
 insert into dept values(10,'IT', 'Bangalore');
+insert into dept values(20,'SALES', 'Mumbai');
+insert into dept values(30,'Accounts', 'Kolkata');
+insert into dept values(40,'HR', 'Delhi');
+
 
 insert into employee values(2021,'Mahesh', 55000.00, 10);
 
@@ -115,5 +104,53 @@ select * from emp where job not in('analyst','clerk');
 select * from emp where sal <= 2000 and sal >= 1000;
 
 select * from emp where sal not between 1000 and 2000;
+
+SELECT * FROM emp where ename like '[S-Z]%T';
+SELECT * FROM emp where sal like '___';
+
+select * from emp where hiredate like '____-02%';
+
+
+-- Group Functions
+
+-- sum avg min max count 
+
+select min(sal) from emp;
+
+select job, min(sal) as 'Minimum Salary', count(*) as 'Total Employees' from emp where job='CLERK' group by job; 
+
+select job, min(sal) as 'Minimum Salary', count(*) as 'Total Employees' from emp group by job having count(*)>2; 
+
+
+-- where vs having
+
+
+
+select e.*, d.* from emp e join dept d USING(deptno);
+
+select d.deptno, d.dname from dept d left join emp e on d.deptno=e.deptno where e.empno is NULL;
+
+-- find the no of employees worling in Kolkata
+
+-- display the dept details along with employee count
+
+-- display the total salary of SALES dept
+
+-- display the emplyee details of IT dept
+
+-- find the SALESMAN working in Mumbai
+
+-- Find the manager working for IT dept
+
+-- Find the least earner of SALES dept
+
+-- find the least earning manager
+
+-- find the EMPLOYEE whose salary is more than his manager
+
+
+
+
+
 
 ```
