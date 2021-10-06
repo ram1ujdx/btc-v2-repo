@@ -15,4 +15,10 @@
     <fullyQualifiedTypeName name="heap.Heap"/>
     <fullyQualifiedTypeName name="heap.Node"/>
     <fullyQualifiedTypeName name="hashtable.HashTable"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="graph.Graph"/>
+    <fullyQualifiedTypeName name="graph.AdvancedGraph.Vertex"/>
+    <fullyQualifiedTypeName name="graph.AdvancedGraph.Node"/>
+    <fullyQualifiedTypeName name="graph.AdvancedGraph"/>
 </qualifiedTypeNameHistroy>
