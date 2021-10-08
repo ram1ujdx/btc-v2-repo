@@ -15,3 +15,200 @@
 2021-09-22 14:47:56,963 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-09-23 09:22:39,334 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-10-06 12:13:48,480 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-10-07 11:57:26,904 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-07 12:03:43,712 [Worker-70: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml
+2021-10-07 12:03:45,396 [Worker-70: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-07 12:03:46,223 [Worker-70: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mvn-project-demo/src/main/java
+2021-10-07 12:03:46,232 [Worker-70: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mvn-project-demo/src/test/java
+2021-10-07 12:03:46,422 [Worker-70: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2021-10-07 12:03:48,708 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:03:48,709 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:03:48,712 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:03:48,712 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:05:39,310 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-07 12:05:39,508 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:05:39,509 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:05:39,512 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:05:39,512 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:05:42,585 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:05:42,591 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:05:42,592 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:05:42,592 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:06:03,767 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-07 12:06:04,043 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:06:04,045 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:06:04,054 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:06:04,054 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:06:16,098 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-10-07 12:06:17,070 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-07 12:06:17,288 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mvn-project-demo/src/main/java
+2021-10-07 12:06:17,289 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mvn-project-demo/src/test/java
+2021-10-07 12:06:18,335 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-10-07 12:06:18,870 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:06:18,870 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:06:18,873 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:06:18,874 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:09:07,386 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-07 12:09:07,609 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:07,609 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:09:07,613 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:07,613 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:09:09,282 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:09,284 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:09:09,290 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:09,290 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:09:50,047 [Worker-77: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-07 12:09:50,178 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:50,183 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:09:50,189 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:50,190 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:09:51,656 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:51,657 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:09:51,657 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:09:51,657 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:10:08,749 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:10:08,753 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:10:08,758 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:10:08,758 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:16:53,872 [Worker-80: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-07 12:16:55,188 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.10/spring-context-5.3.10.pom
+2021-10-07 12:16:55,690 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.10/spring-context-5.3.10.pom
+2021-10-07 12:16:56,008 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.pom
+2021-10-07 12:16:56,243 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.pom
+2021-10-07 12:16:56,556 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.pom
+2021-10-07 12:16:56,801 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.pom
+2021-10-07 12:16:57,114 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.10/spring-core-5.3.10.pom
+2021-10-07 12:16:57,410 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.10/spring-core-5.3.10.pom
+2021-10-07 12:16:57,782 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.pom
+2021-10-07 12:16:58,107 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.pom
+2021-10-07 12:16:58,577 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.pom
+2021-10-07 12:16:58,861 [Worker-80: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.pom
+2021-10-07 12:16:59,226 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar
+2021-10-07 12:16:59,418 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar
+2021-10-07 12:16:59,418 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar
+2021-10-07 12:16:59,422 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar
+2021-10-07 12:16:59,418 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar
+2021-10-07 12:17:00,549 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar
+2021-10-07 12:17:00,770 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar
+2021-10-07 12:17:00,770 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar
+2021-10-07 12:17:00,750 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar
+2021-10-07 12:17:00,807 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar
+2021-10-07 12:17:01,006 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar
+2021-10-07 12:17:01,017 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar
+2021-10-07 12:17:01,586 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:17:01,588 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:17:01,591 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:17:01,591 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:17:03,109 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:17:03,109 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:17:03,112 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:17:03,112 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:17:03,245 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.10/spring-context-5.3.10-sources.jar
+2021-10-07 12:17:04,318 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.10/spring-context-5.3.10-sources.jar
+2021-10-07 12:17:04,347 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.3.10
+2021-10-07 12:17:05,271 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10-sources.jar
+2021-10-07 12:17:06,079 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10-sources.jar
+2021-10-07 12:17:06,104 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.3.10
+2021-10-07 12:17:06,964 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar
+2021-10-07 12:17:07,889 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar
+2021-10-07 12:17:07,913 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.3.10
+2021-10-07 12:17:08,751 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.10/spring-core-5.3.10-sources.jar
+2021-10-07 12:17:09,747 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.10/spring-core-5.3.10-sources.jar
+2021-10-07 12:17:09,765 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.3.10
+2021-10-07 12:17:10,577 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10-sources.jar
+2021-10-07 12:17:10,946 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10-sources.jar
+2021-10-07 12:17:10,968 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.3.10
+2021-10-07 12:17:11,873 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10-sources.jar
+2021-10-07 12:17:12,533 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10-sources.jar
+2021-10-07 12:17:12,558 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.3.10
+2021-10-07 12:17:13,178 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:17:13,185 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:17:13,189 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:17:13,190 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 12:19:51,051 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-10-07 12:20:48,328 [Worker-80: Launching mvn-project-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo
+2021-10-07 12:20:48,334 [Worker-80: Launching mvn-project-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
+2021-10-07 12:21:10,966 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:21:10,967 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-07 12:21:10,971 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 12:21:10,971 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-07 14:32:27,041 [Worker-113: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/pom.xml
+2021-10-07 14:32:27,529 [Worker-113: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:maven-demo-2:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/pom.xml.
+2021-10-07 14:32:27,698 [Worker-113: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maven-demo-2/src/main/java
+2021-10-07 14:32:27,703 [Worker-113: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maven-demo-2/src/test/java
+2021-10-07 14:32:27,761 [Worker-113: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2021-10-07 14:32:28,994 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:32:28,995 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:32:28,998 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:32:28,998 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-07 14:33:40,923 [Worker-114: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:maven-demo-2:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/pom.xml.
+2021-10-07 14:33:40,974 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:33:40,975 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:33:40,976 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:33:40,976 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-07 14:34:41,020 [Worker-114: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-10-07 14:34:41,087 [Worker-114: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:maven-demo-2:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/pom.xml.
+2021-10-07 14:34:41,136 [Worker-114: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maven-demo-2/src/main/java
+2021-10-07 14:34:41,137 [Worker-114: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maven-demo-2/src/test/java
+2021-10-07 14:34:41,339 [Worker-114: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-10-07 14:34:41,610 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:34:41,611 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:34:41,618 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:34:41,618 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-07 14:36:14,845 [Worker-117: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:maven-demo-2:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/pom.xml.
+2021-10-07 14:36:16,220 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/oracle/ojdbc/14/ojdbc-14.pom
+2021-10-07 14:36:16,228 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for oracle:ojdbc:jar:14 is missing, no dependency information available
+2021-10-07 14:36:16,564 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/oracle/ojdbc/14/ojdbc-14.jar
+2021-10-07 14:36:16,638 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:36:16,638 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:36:16,644 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:36:16,645 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-07 14:36:17,798 [Worker-115: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for oracle:ojdbc:jar:14 is missing, no dependency information available
+2021-10-07 14:36:18,591 [Worker-115: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/oracle/ojdbc/14/ojdbc-14-sources.jar
+2021-10-07 14:36:18,623 [Worker-115: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for oracle:ojdbc:14
+org.eclipse.core.runtime.CoreException: Could not resolve artifact oracle:ojdbc:jar:sources:14
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-10-07 14:37:23,850 [Worker-117: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:maven-demo-2:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/pom.xml.
+2021-10-07 14:37:24,802 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.pom
+2021-10-07 14:37:25,148 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.pom
+2021-10-07 14:37:25,542 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar
+2021-10-07 14:37:25,996 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar
+2021-10-07 14:37:26,121 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:37:26,121 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:37:26,123 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:37:26,123 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-07 14:37:26,539 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:37:26,540 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:37:26,540 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:37:26,541 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-07 14:37:27,875 [Worker-117: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final-sources.jar
+2021-10-07 14:37:28,541 [Worker-117: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final-sources.jar
+2021-10-07 14:37:28,574 [Worker-117: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final
+2021-10-07 14:37:28,893 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:37:28,893 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:37:28,894 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:37:28,894 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-07 14:38:15,419 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-10-07 14:38:31,540 [Worker-121: Launching maven-demo-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2
+2021-10-07 14:38:31,541 [Worker-121: Launching maven-demo-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-10-07 14:39:21,856 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:39:21,857 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-07 14:39:21,859 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-07 14:39:21,859 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-08 12:43:09,183 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
