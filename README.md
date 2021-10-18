@@ -276,7 +276,7 @@ select * from emp;
 ```
 
 
-```
+
 
 ## SonarQube steps -
 
