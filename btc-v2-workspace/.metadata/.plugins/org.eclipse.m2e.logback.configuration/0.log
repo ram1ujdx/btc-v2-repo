@@ -212,3 +212,34 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact oracle:ojdbc:
 2021-10-07 14:39:21,859 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-10-07 14:39:21,859 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
 2021-10-08 12:43:09,183 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-08 12:53:51,211 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-08 12:53:51,213 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-08 12:53:51,230 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-08 12:53:51,231 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-11 17:12:31,852 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-11 17:25:19,728 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-11 17:25:19,732 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-11 17:25:19,749 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-11 17:25:19,750 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-11 17:25:57,504 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.btc.mvnproject:mvn-project-demo:0.0.1-SNAPSHOT @ /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/pom.xml.
+2021-10-11 17:25:58,456 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-11 17:25:58,457 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-11 17:25:58,468 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-11 17:25:58,468 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-11 17:26:00,258 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-11 17:26:00,259 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-11 17:26:00,261 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-11 17:26:00,261 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-11 17:26:28,722 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-10-11 17:26:58,948 [Worker-47: Launching mvn-project-demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo
+2021-10-11 17:26:58,954 [Worker-47: Launching mvn-project-demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify sonar:sonar
+2021-10-12 10:23:01,064 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-10-19 15:42:42,621 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-19 15:44:44,641 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-19 15:44:44,644 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/main/resources
+2021-10-19 15:44:44,652 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-19 15:44:44,652 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/maven-demo-2/src/test/resources
+2021-10-19 15:44:45,327 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-19 15:44:45,328 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
+2021-10-19 15:44:45,334 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-19 15:44:45,336 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
