@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Player {
+public abstract class Player {
 
 	protected String playerName;
 	
@@ -61,11 +61,7 @@ public class Player {
 
 
 
-	public void showPlayerDetails() {
-		System.out.println("Player Name - "+playerName);
-		System.out.println("Serial No. - "+serialNo);
-		System.out.println("Age - "+age);
-	}
+	public abstract void showPlayerDetails();
 	
 	
 }

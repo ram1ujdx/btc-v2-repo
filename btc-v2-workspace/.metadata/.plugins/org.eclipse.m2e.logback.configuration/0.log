@@ -243,3 +243,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact oracle:ojdbc:
 2021-10-19 15:44:45,328 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/main/resources
 2021-10-19 15:44:45,334 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-10-19 15:44:45,336 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ramanujdas/Documents/Training-Programs/btc-v2-repo/btc-v2-workspace/mvn-project-demo/src/test/resources
+2021-10-20 11:40:29,444 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

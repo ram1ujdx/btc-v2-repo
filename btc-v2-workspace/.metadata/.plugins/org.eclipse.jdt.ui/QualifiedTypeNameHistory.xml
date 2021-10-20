@@ -21,4 +21,6 @@
     <fullyQualifiedTypeName name="graph.AdvancedGraph.Vertex"/>
     <fullyQualifiedTypeName name="graph.AdvancedGraph.Node"/>
     <fullyQualifiedTypeName name="graph.AdvancedGraph"/>
+    <fullyQualifiedTypeName name="methodoverloading.MathOperation"/>
+    <fullyQualifiedTypeName name="inheritance.Player"/>
 </qualifiedTypeNameHistroy>
