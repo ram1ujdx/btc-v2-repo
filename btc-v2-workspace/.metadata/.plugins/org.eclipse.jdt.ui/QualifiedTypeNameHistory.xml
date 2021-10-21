@@ -23,4 +23,8 @@
     <fullyQualifiedTypeName name="graph.AdvancedGraph"/>
     <fullyQualifiedTypeName name="methodoverloading.MathOperation"/>
     <fullyQualifiedTypeName name="inheritance.Player"/>
+    <fullyQualifiedTypeName name="interfaceexample.FourWheeler"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="interfaceexample.Vehicle"/>
+    <fullyQualifiedTypeName name="interfaceexample.ElectricVehicle"/>
 </qualifiedTypeNameHistroy>
