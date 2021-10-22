@@ -8,7 +8,7 @@ public class ListDemo {
 
 	public static void main(String[] args) {
 		
-		List items = new ArrayList();
+		List<Object> items = new ArrayList<>();
 		
 		items.add(10);
 		

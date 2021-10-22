@@ -9,7 +9,7 @@ public class MyCollections {
 
 	public static void main(String[] args) {
 		
-		Collection items = new LinkedList();
+		Collection<Object> items = new LinkedList<>();
 		
 		items.add(10);
 		items.add("Hello");
