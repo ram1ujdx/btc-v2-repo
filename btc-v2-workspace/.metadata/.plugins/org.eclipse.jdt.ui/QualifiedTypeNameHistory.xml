@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="stack.Stack"/>
     <fullyQualifiedTypeName name="queue.Queue"/>
     <fullyQualifiedTypeName name="singlylinkedlist.SinglyLinkedList"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
     <fullyQualifiedTypeName name="binaryserachtree.BinarySearchTree"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.dom.ParentNode"/>
@@ -29,9 +28,7 @@
     <fullyQualifiedTypeName name="customexception.InvalidAgeException"/>
     <fullyQualifiedTypeName name="customexception.PersonDetails"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -42,4 +39,17 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="sun.tools.serialver.resources.serialver"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="maps.Employee"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="defaultandstaticmethods.MyClass"/>
+    <fullyQualifiedTypeName name="defaultandstaticmethods.MyInterface"/>
+    <fullyQualifiedTypeName name="defaultandstaticmethods.SecondInterface"/>
+    <fullyQualifiedTypeName name="lambdaexpression.MyClass"/>
+    <fullyQualifiedTypeName name="lambdaexpression.MyInterface"/>
 </qualifiedTypeNameHistroy>
