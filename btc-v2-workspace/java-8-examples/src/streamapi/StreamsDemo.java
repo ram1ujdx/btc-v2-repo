@@ -20,14 +20,7 @@ public class StreamsDemo {
 		// Add the squares
 		
 		
-		int result = items.stream().filter(item->{
-			if(item%2==0) {
-				return true;
-				}
-			return false;
-			})
-			.mapToInt(item->item*item).sum();
-		
+		int result = items.stream().map(item->item*item).filter(item->item%2==0).reduce((x,y)->x+y).get();
 		
 		System.out.println(result);
 		
