@@ -1,0 +1,3 @@
+Hello Everyone
+This is an Example where I am reading a File
+Using Java Code
