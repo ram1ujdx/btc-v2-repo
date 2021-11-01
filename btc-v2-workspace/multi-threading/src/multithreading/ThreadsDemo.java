@@ -6,6 +6,16 @@ class Thread1 extends Thread {
 	public void run() {
 		for(int i=1; i<=20; i++) {
 			System.out.println("From Thread 1 - i = "+i);
+			if(i==5) {
+				try {
+					join();
+				}
+				catch(Exception e) {
+					// TODO: handle exception
+				}
+				
+			}
+			
 		}
 	}
 	

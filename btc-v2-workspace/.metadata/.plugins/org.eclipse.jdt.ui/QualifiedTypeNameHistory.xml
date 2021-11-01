@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="graph.AdvancedGraph.Vertex"/>
-    <fullyQualifiedTypeName name="graph.AdvancedGraph.Node"/>
-    <fullyQualifiedTypeName name="graph.AdvancedGraph"/>
-    <fullyQualifiedTypeName name="methodoverloading.MathOperation"/>
-    <fullyQualifiedTypeName name="inheritance.Player"/>
-    <fullyQualifiedTypeName name="interfaceexample.FourWheeler"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="interfaceexample.Vehicle"/>
-    <fullyQualifiedTypeName name="interfaceexample.ElectricVehicle"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -60,4 +51,13 @@
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
     <fullyQualifiedTypeName name="java.nio.file.Paths"/>
     <fullyQualifiedTypeName name="java.nio.file.OpenOption"/>
+    <fullyQualifiedTypeName name="multithreading.MyThread"/>
+    <fullyQualifiedTypeName name="multithreading.Thread1"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="multithreading.ThreadSync"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>
