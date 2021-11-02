@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.btc.app.dao.EmployeeDao;
 import com.btc.app.dao.EmployeeDaoImpl;
+import com.btc.app.dao.EmployeeDaoJdbcImpl;
 import com.btc.app.model.Employee;
 
 public class EmployeeServiceImpl implements EmployeeService {
@@ -11,11 +12,11 @@ public class EmployeeServiceImpl implements EmployeeService {
 	private EmployeeDao daoObj;
 	
 	public EmployeeServiceImpl() {
-		daoObj = new EmployeeDaoImpl();
+		daoObj = new EmployeeDaoJdbcImpl();
 	}
 
 	@Override
-	public Employee addEmployee(Employee employee) {
+	public Employee addEmployee(Employee employee) throws Exception {
 		return daoObj.addEmployee(employee);
 	}
 

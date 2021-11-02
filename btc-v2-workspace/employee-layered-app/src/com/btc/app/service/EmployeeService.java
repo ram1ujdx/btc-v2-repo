@@ -6,7 +6,7 @@ import com.btc.app.model.Employee;
 
 public interface EmployeeService {
 
-	public Employee addEmployee(Employee employee);
+	public Employee addEmployee(Employee employee) throws Exception;
 	
 	public Employee searchEmployeeById(int employeeId);
 	

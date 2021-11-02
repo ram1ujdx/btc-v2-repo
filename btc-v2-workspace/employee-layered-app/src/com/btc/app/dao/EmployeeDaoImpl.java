@@ -16,6 +16,9 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	@Override
 	public Employee addEmployee(Employee employee) {
 		
+		if(employees.containsKey(employee.getEmployeeId())) {
+			throw new RuntimeException("Duplicate Entry - Employee ID : "+employee.getEmployeeId());
+		}
 		employees.put(employee.getEmployeeId(), employee);
 		return employee;
 	}

@@ -29,9 +29,16 @@ public class EmployeeAppUI {
 		
 		Employee employee= new Employee(employeeId, employeeName, dob, email);
 		
-		Employee savedEmployee = service.addEmployee(employee);
-		System.out.println("Employee Added Successfully..");
-		System.out.println(savedEmployee);
+		Employee savedEmployee;
+		try {
+			savedEmployee = service.addEmployee(employee);
+			System.out.println("Employee Added Successfully..");
+			System.out.println(savedEmployee);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 	
