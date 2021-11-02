@@ -8,13 +8,13 @@ public interface EmployeeService {
 
 	public Employee addEmployee(Employee employee) throws Exception;
 	
-	public Employee searchEmployeeById(int employeeId);
+	public Employee searchEmployeeById(int employeeId) throws Exception;
 	
-	public boolean deleteEmployeeById(int employeeId);
+	public boolean deleteEmployeeById(int employeeId) throws Exception;
 	
-	public Employee updateEmployee(Employee employee);
+	public Employee updateEmployee(Employee employee) throws Exception;
 	
-	public List<Employee> getAllEmployee();
+	public List<Employee> getAllEmployee() throws Exception;
 	
 	
 }

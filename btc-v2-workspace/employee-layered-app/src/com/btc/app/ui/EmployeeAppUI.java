@@ -1,5 +1,6 @@
 package com.btc.app.ui;
 
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.Scanner;
 
@@ -10,8 +11,11 @@ import com.btc.app.service.EmployeeServiceImpl;
 public class EmployeeAppUI {
 	
 	private Scanner scanner=new Scanner(System.in);
-	private static EmployeeService service=new EmployeeServiceImpl();
+	private static EmployeeService service;
 	
+public EmployeeAppUI() throws SQLException {
+	service=new EmployeeServiceImpl();
+}
 	
 	public void addEmployee() {
 		System.out.println("Enter Employee Details :  ");
@@ -47,7 +51,13 @@ public class EmployeeAppUI {
 		System.out.print("Employee ID : ");
 		int employeeId=scanner.nextInt();
 		
-		Employee employee = service.searchEmployeeById(employeeId);
+		Employee employee=null;
+		try {
+			employee = service.searchEmployeeById(employeeId);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		System.out.println(employee);
 	}

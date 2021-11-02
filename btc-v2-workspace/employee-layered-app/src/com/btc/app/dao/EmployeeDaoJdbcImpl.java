@@ -2,6 +2,7 @@ package com.btc.app.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDate;
@@ -17,7 +18,9 @@ public class EmployeeDaoJdbcImpl implements EmployeeDao {
 	private PreparedStatement smt;
 	
 	
-	
+	public EmployeeDaoJdbcImpl() throws SQLException {
+		con=ConnectionUtil.getDbConnection();
+	}
 
 	@Override
 	public Employee addEmployee(Employee employee) throws SQLException {
@@ -26,7 +29,7 @@ public class EmployeeDaoJdbcImpl implements EmployeeDao {
 		
 		String query = "insert into empdb values(?,?,?,?)";
 		
-		con=ConnectionUtil.getDbConnection();
+		
 		smt= con.prepareStatement(query);
 		
 		smt.setInt(1, employee.getEmployeeId());
@@ -42,9 +45,27 @@ public class EmployeeDaoJdbcImpl implements EmployeeDao {
 	}
 
 	@Override
-	public Employee searchEmployeeById(int employeeId) {
-		// TODO Auto-generated method stub
-		return null;
+	public Employee searchEmployeeById(int employeeId) throws SQLException {
+		String query="select * from empdb where employeeId=?";
+		smt=con.prepareStatement(query);
+		
+		smt.setInt(1, employeeId);	
+		
+		ResultSet queryResult = smt.executeQuery();
+		
+		Employee emp=null;
+		
+		if(queryResult.next()) {
+			emp=new Employee();
+			emp.setEmployeeId(employeeId);
+			emp.setEmployeeName(queryResult.getString("employeeName"));
+			emp.setEmail(queryResult.getString("email"));
+			String dateString=queryResult.getString("dob");
+			emp.setDob(LocalDate.parse(dateString));
+		}
+		
+		return emp;
+		
 	}
 
 	@Override

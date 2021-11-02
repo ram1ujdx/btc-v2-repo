@@ -1,5 +1,6 @@
 package com.btc.app;
 
+import java.sql.SQLException;
 import java.util.Scanner;
 
 import com.btc.app.ui.EmployeeAppUI;
@@ -8,7 +9,13 @@ public class EmployeeAppRunner {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		EmployeeAppUI appUI = new EmployeeAppUI();
+		EmployeeAppUI appUI=null;
+		try {
+			appUI = new EmployeeAppUI();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		while (true) {
 			System.out.println("Enter a option :\n [1 - Add Employee] \n [2 - Search Employee] \n [0 - Exit]");
 			int option = scanner.nextInt();
