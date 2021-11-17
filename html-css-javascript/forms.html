@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>EMPLOYEE FORM</h3>
+<form action="hello.html"> 
+
+    
+    <label for="employeeid">ID</label>
+    <input type="text" name="employeeid" id="employeeid" required>
+    <br>
+    <label for="employeename">Name</label>
+    <input type="text" name="employeename" id="employeename" minlength="3" maxlength="30">
+    <br>
+    <label for="salary">Salary</label>
+    <input type="number" name="salary" id="salary" min="10000" max="50000">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <button type="button" onclick="addEmployee()">Add Employee</button>
+
+</form>
+
+<div>
+    <p id="pemployeeid"></p>
+    <p id="pemployeename"></p>
+    <p id="psalary"></p>
+    <p id="pemail"></p>
+</div>
+
+</body>
+
+<script src="employee-script.js">
+
+   
+
+   
+
+
+</script>
+</html>
