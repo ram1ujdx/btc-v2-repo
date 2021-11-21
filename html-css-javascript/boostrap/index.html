@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+    
+      header{
+        min-height: 150px;
+        background-color: cadetblue;
+      }
+      section,article{
+        min-height: 500px;
+
+      }
+      footer{
+        min-height: 200px;
+        background-color: darkgray;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+               <header>This is the header</header>
+            </div>
+            
+            <article class="col-12" style="margin-top: 10px;">
+             
+              <form  action="hello.html">
+               
+               
+                <div class="row mb-3">
+                    <label for="employeeid" class="col-12 col-sm-2 col-lg-2 col-form-label">ID</label>
+                  <div class="col-12 col-sm-10 col-lg-4">
+                    <input type="text" name="employeeid" id="employeeid" class="form-control" required>
+                  </div>
+               
+              
+                
+                  
+                  <label for="employeename" class="col-12 col-sm-2 col-lg-2 col-form-label">Name</label>
+                  
+                  <div class="col-12 col-sm-10 col-lg-4">
+                  <input type="email" name="employeename" id="employeename" class="form-control">
+                  </div>
+                  </div>
+               
+                <label for="salary">Salary</label>
+                <input type="number" name="salary" id="salary" class="form-control" min="10000" max="50000">
+             
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" id="email">
+             
+                <button type="button" onclick="addEmployee()">Add Employee</button>
+            
+            </form>
+
+
+            </article>
+            <footer class="col-12">This is the footer</footer>
+        </div>
+    </div>
+   
+
+  </body>
+</html>

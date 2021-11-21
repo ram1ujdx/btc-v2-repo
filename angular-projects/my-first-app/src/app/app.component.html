@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <app-header></app-header>
+
+            <h1>Hello {{personName}}</h1>
+            <input type="text" name="personNameTxt" id="personNameTxt" #personNameVar>
+            <button [disabled]="isDisabled" class="btn btn-primary" (click)="showMessage(personNameVar)">{{btnText}}</button>
+           <br>
+            <input type="text" name="commentsTxt" id="commentsTxt" [(ngModel)]="comments">
+            {{comments}}
+
+            <app-footer></app-footer>
+
+        </div>
+    </div>
+</div>
+
