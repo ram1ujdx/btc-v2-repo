@@ -12,13 +12,20 @@ export class AppComponent {
 
   isDisabled:boolean=false;
 
-  btnText="Click Me";
+  btnText="Add Persons";
+  
+  persons:Array<String>=[];
 
   comments?:string="Some Comments";
 
   showMessage(personName:any){
     this.personName=personName.value;
     
+  }
+
+  addPerson(personName:string){
+    this.persons.push(personName);
+    console.log(this.persons);
   }
 
 }

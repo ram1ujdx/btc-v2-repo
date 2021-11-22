@@ -3,12 +3,25 @@
         <div class="col-12">
             <app-header></app-header>
 
+
+            <app-person></app-person>
+<!-- 
             <h1>Hello {{personName}}</h1>
             <input type="text" name="personNameTxt" id="personNameTxt" #personNameVar>
-            <button [disabled]="isDisabled" class="btn btn-primary" (click)="showMessage(personNameVar)">{{btnText}}</button>
+            <button [disabled]="isDisabled" class="btn btn-primary" (click)="addPerson(personNameVar.value)">{{btnText}}</button>
            <br>
             <input type="text" name="commentsTxt" id="commentsTxt" [(ngModel)]="comments">
             {{comments}}
+
+            <div *ngIf="personNameVar.value">
+            <app-footer></app-footer>
+            </div>
+
+            <ul>
+                <li *ngFor="let person of persons">
+                    {{person}}
+                </li>
+            </ul> -->
 
             <app-footer></app-footer>
 
