@@ -16,6 +16,15 @@ export class PersonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getColorByAge(age:number):string{
+    return age>=18?'green':'red';
+
+  }
+
+  getClassByAge(age:number):string{
+    return age>=18?'style1':'style2';
+  }
+
   addPerson(personName:any, email:any, age:any){
 
     let person=new Person(personName.value,email.value,age.value);
