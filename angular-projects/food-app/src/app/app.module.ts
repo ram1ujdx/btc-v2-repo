@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { AddFoodItemComponent } from './add-food-item/add-food-item.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ViewFoodItemComponent } from './view-food-item/view-food-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddFoodItemComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ViewFoodItemComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FoodItemService } from '../food-item.service';
 import { FoodItem } from '../FoodItem';
 
 @Component({
@@ -8,15 +9,15 @@ import { FoodItem } from '../FoodItem';
 })
 export class AddFoodItemComponent implements OnInit {
 
-  foodItems:Array<FoodItem>=[];
-  constructor() { }
+ 
+  constructor(private _foodItemService:FoodItemService) { }
 
   ngOnInit(): void {
   }
 
   addFoodItem(foodItem:FoodItem){
     console.log(foodItem);
-    this.foodItems.push(foodItem);
+    this._foodItemService.addFoodItem(foodItem);
   }
 
 }
