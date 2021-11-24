@@ -31,20 +31,34 @@
                                        #price="ngModel"
                                        >
     </div>
+
+    
+
     <div class="form-group">
         <label for="type">Food Type</label>
-        <input type="text" name="type" id="type"
-                                       class="form-control" 
-                                       required
+        <select class="form-select" aria-label="Select a Food Type" name="type" id="type"
+        required
+        ngModel
+        #type="ngModel">
+        <option selected>Open this select menu</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="snacks">Snacks</option>
+        </select>
+    </div>
+    <div class="form-check">
+        <label for="isVeg">Vegeterian</label>
+        <input type="radio" value="veg" name="isVeg" id="veg"
+                                       class="form-check-input" 
                                        ngModel
-                                       #type="ngModel"
+                                       #isVeg="ngModel"
                                        >
     </div>
-    <div class="form-group">
-        <label for="isVeg">Is Veg</label>
-        <input type="text" name="isVeg" id="isVeg"
-                                       class="form-control" 
-                                       required
+
+    <div class="form-check">
+        <label for="isVeg">Non Vegeterian</label>
+        <input type="radio" value="nonveg" name="isVeg" id="nonveg"
+                                       class="form-check-input" 
                                        ngModel
                                        #isVeg="ngModel"
                                        >

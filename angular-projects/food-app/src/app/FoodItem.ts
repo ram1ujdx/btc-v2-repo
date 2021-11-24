@@ -3,6 +3,11 @@ export class FoodItem{
     itemName?:string;
     price?:number;
     type?:string;
-    isVeg?:boolean;
+    isVeg?:foodType
 
+}
+
+export enum foodType{
+    veg='veg',
+    nonveg='nonveg'
 }

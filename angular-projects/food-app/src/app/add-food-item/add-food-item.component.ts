@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { FoodItemService } from '../food-item.service';
 import { FoodItem } from '../FoodItem';
 
@@ -10,7 +11,7 @@ import { FoodItem } from '../FoodItem';
 export class AddFoodItemComponent implements OnInit {
 
  
-  constructor(private _foodItemService:FoodItemService) { }
+  constructor(private _foodItemService:FoodItemService, private _router:Router) { }
 
   ngOnInit(): void {
   }
@@ -18,6 +19,7 @@ export class AddFoodItemComponent implements OnInit {
   addFoodItem(foodItem:FoodItem){
     console.log(foodItem);
     this._foodItemService.addFoodItem(foodItem);
+    this._router.navigate(['/view-item'])
   }
 
 }

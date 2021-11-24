@@ -8,6 +8,7 @@ import { AddFoodItemComponent } from './add-food-item/add-food-item.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ViewFoodItemComponent } from './view-food-item/view-food-item.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ViewFoodItemComponent } from './view-food-item/view-food-item.component
     AddFoodItemComponent,
     HeaderComponent,
     FooterComponent,
-    ViewFoodItemComponent
+    ViewFoodItemComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

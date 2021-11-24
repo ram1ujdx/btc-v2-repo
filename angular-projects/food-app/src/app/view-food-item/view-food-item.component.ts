@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 import { FoodItemService } from "../food-item.service";
 import { FoodItem } from "../FoodItem";
 
@@ -12,7 +13,7 @@ import { FoodItem } from "../FoodItem";
 
 export class ViewFoodItemComponent implements OnInit{
 
-    constructor(public _foodItemService:FoodItemService){
+    constructor(public _foodItemService:FoodItemService, private _router:Router){
 
     }
 
@@ -20,6 +21,10 @@ export class ViewFoodItemComponent implements OnInit{
         if(confirm("Sure to delete?")){
         this._foodItemService.deleteFoodItem(item.itemCode);
         }
+    }
+
+    update(item:FoodItem){
+        this._router.navigate(['/update-item']);
     }
 
     ngOnInit(){}

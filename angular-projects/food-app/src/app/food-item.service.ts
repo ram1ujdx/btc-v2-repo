@@ -1,16 +1,36 @@
 import { Injectable } from '@angular/core';
-import { FoodItem } from './FoodItem';
+import { FoodItem, foodType } from './FoodItem';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FoodItemService {
 
-  itemList:Array<FoodItem>=[];
+  itemList:Array<FoodItem>=[
+    {
+      itemCode:1001,
+      itemName:'Burger',
+      isVeg:foodType.nonveg,
+      type:'Snacks',
+      price:99
+
+    },
+    {
+      itemCode:1002,
+      itemName:'Pizza',
+      isVeg:foodType.nonveg,
+      type:'Lunch',
+      price:199
+
+    }
+
+  ];
 
   constructor() { }
 
   public addFoodItem(foodItem:FoodItem){
+
+    
     this.itemList.push(foodItem);
   }
 

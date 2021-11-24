@@ -1,5 +1,27 @@
 <h2>Food Items List</h2>
 
-<ul>
-    <li *ngFor="let item of _foodItemService.itemList">{{item|json}} <button (click)="deleteFoodItem(item)">Delete</button></li>
-</ul>
+<table class="table"> 
+    <thead>
+      <tr>
+        <th scope="col">Item Code</th>
+        <th scope="col">Item Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Type</th>
+        <th scope="col">Veg/Non-Veg</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of _foodItemService.itemList">
+        <td>
+        {{item.itemCode}}</td>
+        <td>{{item.itemName}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.type}}</td>
+        <td>{{item.isVeg}}</td>
+            <td><button class="btn btn-primary" (click)="deleteFoodItem(item)">Delete</button></td>
+            <td><button class="btn btn-success" (click)="update(item)">Update</button></td>
+
+      </tr>
+    </tbody>
+
+  </table>
