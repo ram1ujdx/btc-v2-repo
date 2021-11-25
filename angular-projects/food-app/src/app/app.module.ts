@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ViewFoodItemComponent } from './view-food-item/view-food-item.component';
 import { NavComponent } from './nav/nav.component';
+import { UpdateItemComponent } from './update-item/update-item.component';
+import { AddFoodItemReactiveComponent } from './add-food-item-reactive/add-food-item-reactive.component';
+
 
 @NgModule({
   declarations: [
@@ -17,12 +20,16 @@ import { NavComponent } from './nav/nav.component';
     HeaderComponent,
     FooterComponent,
     ViewFoodItemComponent,
-    NavComponent
+    NavComponent,
+    UpdateItemComponent,
+    AddFoodItemReactiveComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

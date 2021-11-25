@@ -1,0 +1,80 @@
+<h2>Input Food Item Details</h2>
+
+<form (submit)="updateFoodItem(item.value)" #item="ngForm">
+
+    <div class="form-group">
+        <label for="itemCode">Item Code</label>
+        <input type="text" name="itemCode" id="itemCode"
+                                       readonly
+                                       [(ngModel)]="foodItem.itemCode"
+                                       class="form-control" 
+                                       required
+                                       ngModel
+                                       #titemCode="ngModel"
+                                       >
+    </div>
+    <div class="form-group">
+        <label for="itemName">Item Name</label>
+        <input type="text" name="itemName" id="itemName"
+                                       class="form-control" 
+                                       required
+                                       [(ngModel)]="foodItem.itemName"
+                                       ngModel
+                                       #titemName="ngModel"
+        [class.is-invalid]="titemName.invalid && titemName.touched">
+        <small *ngIf="titemName.invalid && titemName.touched" class="text-danger">**Item Name is Required</small>
+
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="text" name="price" id="price"
+                                       class="form-control" 
+                                       required
+                                       [(ngModel)]="foodItem.price"
+                                       ngModel
+                                       #tprice="ngModel"
+                                       >
+    </div>
+
+    
+
+    <div class="form-group">
+        <label for="type">Food Type</label>
+        <select class="form-select" aria-label="Select a Food Type" name="type" id="type"
+        required
+       ngModel
+        #ttype="ngModel">
+        <option  value="Breakfast">Breakfast</option>
+        <option [selected]="foodItem.type=='Lunch'" value="Lunch">Lunch</option>
+        <option selected [selected]="foodItem.type=='Snacks'" value="Snacks">Snacks</option>
+        </select>
+        {{foodItem.type=='Breakfast'}}
+        {{foodItem.type=='Snacks'}}
+    </div>
+    <div class="form-check">
+        <label for="isVeg">Vegeterian</label>
+        <input type="radio" value="veg" name="isVeg" id="veg"
+                                       class="form-check-input" 
+                                       ngModel
+                                       [checked]="foodItem.isVeg=='veg'"
+                                       [(ngModel)]="foodItem.isVeg"
+                                       #tisVeg="ngModel"
+                                       >
+                                       
+    </div>
+
+    <div class="form-check">
+        <label for="isVeg">Non Vegeterian</label>
+        <input type="radio" value="nonveg" name="isVeg" id="nonveg"
+                                       class="form-check-input" 
+                                       ngModel
+                                       [checked]="_foodItemService.getFoodItem(itemCode).isVeg=='nonveg'"
+                                       [(ngModel)]="_foodItemService.getFoodItem(itemCode).isVeg"
+                                       #tisVeg="ngModel"
+                                       >
+                                       
+    </div>
+
+<button [disabled]="item.invalid" type="submit" class="btn btn-success">Update Changes</button>
+
+</form>

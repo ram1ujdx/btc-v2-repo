@@ -1,0 +1,69 @@
+<h2>Input Food Item Details</h2>
+
+<form [formGroup]="foodItemForm">
+
+    <div class="form-group">
+        <label for="itemCode">Item Code</label>
+        <input type="text" name="itemCode" id="itemCode"
+                                       class="form-control" 
+                                       formControlName="itemCode"
+                                       [class.is-invalid]="foodItemForm.get('itemCode')?.invalid && foodItemForm.get('itemCode')?.touched"
+                                       >
+    <small class="text-danger" *ngIf="foodItemForm.get('itemCode')?.invalid && foodItemForm.get('itemCode')?.touched">**Item Code is Required</small>
+    </div>
+    <div class="form-group">
+        <label for="itemName">Item Name</label>
+        <input type="text" name="itemName" id="itemName"
+                                       class="form-control" 
+                                       formControlName="itemName"
+        
+        [class.is-invalid]="foodItemForm.get('itemName')?.invalid && foodItemForm.get('itemName')?.touched">
+
+        <div *ngIf="foodItemForm.get('itemName')?.touched">
+        <small *ngIf="foodItemForm.get('itemName')?.errors?.['required']" class="text-danger">**Item Name is Required</small>
+        <small *ngIf="foodItemForm.get('itemName')?.errors?.['minlength']" class="text-danger">**Item Name is invalid</small>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="text" name="price" id="price"
+                                       class="form-control" 
+                                       formControlName="price"
+                                       >
+    </div>
+
+    
+
+    <div class="form-group">
+        <label for="type">Food Type</label>
+        <select class="form-select" aria-label="Select a Food Type" name="type" id="type"
+        required
+        formControlName="type">
+        <option selected>Open this select menu</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="snacks">Snacks</option>
+        </select>
+    </div>
+    <div class="form-check">
+        <label for="isVeg">Vegeterian</label>
+        <input type="radio" value="veg" name="isVeg" id="veg"
+                                       class="form-check-input" 
+                                       formControlName="isVeg"
+                                       >
+    </div>
+
+    <div class="form-check">
+        <label for="isVeg">Non Vegeterian</label>
+        <input type="radio" value="nonveg" name="isVeg" id="nonveg"
+                                       class="form-check-input" 
+                                       formControlName="isVeg"
+                                       >
+    </div>
+
+<button  type="submit" class="btn btn-primary">Add Item</button>
+
+</form>
+
+
+{{foodItemForm.value|json}}

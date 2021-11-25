@@ -47,4 +47,24 @@ export class FoodItemService {
   }
   
 
+  public getFoodItem(itemCode:any):FoodItem{
+   let item:any = this.itemList.find(item=>item.itemCode==itemCode);
+   return item;
+  }
+
+  public getFoodItemByName(itemName:any){
+    return this.itemList.find(item=>item.itemName==itemName);
+  }
+
+  public updateFoodItem(foodItem:FoodItem){
+    let itemToUpdate:FoodItem|any;
+    itemToUpdate = this.getFoodItem(foodItem.itemCode);
+
+    itemToUpdate.itemName=foodItem.itemName;
+    itemToUpdate.isVeg=foodItem.isVeg;
+    itemToUpdate.price=foodItem.price;
+    itemToUpdate.type=foodItem.type;
+
+  }
+
 }

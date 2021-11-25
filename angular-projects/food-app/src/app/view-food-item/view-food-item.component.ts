@@ -24,7 +24,7 @@ export class ViewFoodItemComponent implements OnInit{
     }
 
     update(item:FoodItem){
-        this._router.navigate(['/update-item']);
+        this._router.navigate(['/update-item/'+item.itemCode]);
     }
 
     ngOnInit(){}
