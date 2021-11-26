@@ -69,12 +69,12 @@
                                        class="form-check-input" 
                                        ngModel
                                        [checked]="_foodItemService.getFoodItem(itemCode).isVeg=='nonveg'"
-                                       [(ngModel)]="_foodItemService.getFoodItem(itemCode).isVeg"
+                                       [(ngModel)]="foodItem.isVeg"
                                        #tisVeg="ngModel"
                                        >
                                        
     </div>
 
-<button [disabled]="item.invalid" type="submit" class="btn btn-success">Update Changes</button>
+<button type="submit" class="btn btn-success">Update Changes</button>
 
 </form>
