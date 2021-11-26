@@ -1,0 +1,37 @@
+<h2>Github User Details</h2>
+
+<form>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+        <label for="userid">User ID</label>
+        </div>
+        <div class="col-md-8">
+            <input type="text" name="userid" id="userid" class="form-control" #userId>
+        </div>
+        <div class="col-md-2">
+            <button (click)="getUserDetails(userId.value)" class="btn btn-info">Fetch Details</button>
+        </div>
+        </div>
+    </div>
+
+
+</form>
+
+<div *ngIf="user">
+    <div class="row">
+    <div class="col-md-6">
+    <p>User ID : {{user?.login}}</p>
+    <p>User Name : {{user?.name}}</p>
+    <p>Public Repos : {{user?.public_repos}}</p>
+    <p>Location : {{user?.location}}</p>
+    </div>
+    <div class="col-md-6">
+        <img src="{{user?.avatar_url}}" alt="Image not available" height="200px" width="200px">
+    </div>
+
+    </div>
+
+
+</div>

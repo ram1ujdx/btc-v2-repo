@@ -22,6 +22,7 @@
         <div *ngIf="foodItemForm.get('itemName')?.touched">
         <small *ngIf="foodItemForm.get('itemName')?.errors?.['required']" class="text-danger">**Item Name is Required</small>
         <small *ngIf="foodItemForm.get('itemName')?.errors?.['minlength']" class="text-danger">**Item Name is invalid</small>
+        <small *ngIf="foodItemForm.get('itemName')?.errors?.['forbiddenPattern']" class="text-danger">**Sorry this name is against our community standard</small>
         </div>
     </div>
     <div class="form-group">
@@ -59,6 +60,43 @@
                                        class="form-check-input" 
                                        formControlName="isVeg"
                                        >
+    </div>
+
+    <div formGroupName="ingredientsForm">
+        <div class="form-group">
+            <label for="primaryIngredient">Primary Ingredient</label>
+            <input type="text" name="itemName" id="itemName"
+                                           class="form-control" 
+                                           formControlName="primaryIngredient">
+            
+        
+            </div>
+
+            <div class="form-group">
+                <label for="secondaryIngredient">Secondary Ingredient</label>
+                <input type="text" name="itemName" id="itemName"
+                                               class="form-control" 
+                                               formControlName="secondaryIngredient">
+                
+            
+                </div>
+
+                <div class="form-check">
+                    <label for="sugarfree">Sugar Free</label>
+                    <input type="radio" value="sugarfree" name="isVeg" id="sugarfree"
+                                                   class="form-check-input" 
+                                                   formControlName="isSugarFree"
+                                                   >
+                </div>
+            
+                <div class="form-check">
+                    <label for="withsugar">Conains Sugar</label>
+                    <input type="radio" value="withsugar" name="isVeg" id="withsugar"
+                                                   class="form-check-input" 
+                                                   formControlName="isSugarFree"
+                                                   >
+                </div>
+
     </div>
 
 <button  type="submit" class="btn btn-primary">Add Item</button>

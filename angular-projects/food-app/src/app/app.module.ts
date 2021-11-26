@@ -11,6 +11,7 @@ import { ViewFoodItemComponent } from './view-food-item/view-food-item.component
 import { NavComponent } from './nav/nav.component';
 import { UpdateItemComponent } from './update-item/update-item.component';
 import { AddFoodItemReactiveComponent } from './add-food-item-reactive/add-food-item-reactive.component';
+import { CodepPipe } from './codep.pipe';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { AddFoodItemReactiveComponent } from './add-food-item-reactive/add-food-
     NavComponent,
     UpdateItemComponent,
     AddFoodItemReactiveComponent,
+    CodepPipe,
 
   ],
   imports: [

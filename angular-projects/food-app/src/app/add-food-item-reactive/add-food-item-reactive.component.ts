@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { forbiddenItemNameValidator } from './forbidden-item-name';
 
 @Component({
   selector: 'app-add-food-item-reactive',
@@ -23,10 +24,15 @@ export class AddFoodItemReactiveComponent implements OnInit {
   foodItemForm=this._formBuilder.group(
     {
       itemCode:['',[Validators.required]],
-      itemName:['',[Validators.required,Validators.minLength(2)]],
+      itemName:['',[Validators.required,Validators.minLength(2), forbiddenItemNameValidator]],
       price:[''],
       type: [''],
-      isVeg:['']
+      isVeg:[''],
+      ingredientsForm:this._formBuilder.group({
+        primaryIngredient:[''],
+        secondaryIngredient:[''],
+        isSugarFree:['']
+      })
     }
   )
 
